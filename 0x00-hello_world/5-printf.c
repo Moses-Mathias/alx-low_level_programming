@@ -3,9 +3,9 @@
 
 int main(void) {
 
-       	char string1[] = "with proper grammar, but the outcome is a piece of art,";
+       	char str1[] = "with proper grammar, but the outcome is a piece of art,\n";
 
-	printf(string1);
+	printf(str1);
 
 return 0;
 }
