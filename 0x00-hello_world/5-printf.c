@@ -1,14 +1,12 @@
 #include <stdio.h>
-#include <string.h>
 
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+ * main - my entry point
+ * Description: print with proper grammar, but the outcome is a piece of art,
+ * Return: 0
  */
-int main(void) 
+int main(void)
 {
-char str1[] = "with proper grammar, but the outcome is a piece of art,\n";
-printf(str1);
+printf("with proper grammar, but the outcome is a piece of art,\n");
 return (0);
 }
