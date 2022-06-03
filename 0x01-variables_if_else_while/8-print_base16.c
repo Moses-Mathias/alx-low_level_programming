@@ -13,7 +13,7 @@ int hex_num = 'a';
 while (n <= 57)
 {
 putchar(n);
-n ++;
+n++;
 }
 while (hex_num <= 'f')
 {

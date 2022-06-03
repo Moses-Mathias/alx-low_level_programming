@@ -20,7 +20,7 @@ if (n != 57)
 putchar(comma_ascii);
 putchar(32);
 }
-n ++;
+n++;
 }
 putchar('\n');
 return (0);

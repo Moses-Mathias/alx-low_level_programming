@@ -13,7 +13,7 @@ int n = 48;
 while (n <= 57)
 {
 putchar(n);
-n ++;
+n++;
 }
 printf("\n");
 return (0);
