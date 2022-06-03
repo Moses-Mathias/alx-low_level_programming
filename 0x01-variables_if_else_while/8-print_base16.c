@@ -3,6 +3,7 @@
 /**
  * main -  program that prints all the numbers of base 16 in lowercase
  * Only use the putchar function
+ * Return: 0
  */
 
 int main(void)

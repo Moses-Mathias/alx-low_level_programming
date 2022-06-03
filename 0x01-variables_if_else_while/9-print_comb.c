@@ -5,6 +5,7 @@
  * Numbers must be separated by ,followed by a space
  * Numbers should be printed in ascending order
  * Use only the putchar function 4 times max
+ * Return: 0
  */
 
 int main(void)

@@ -4,6 +4,7 @@
 /**
  * main - program that prints the alphabet in lowercase, followed by a new line
  * Use the putchar function only twice
+ * Return: 0
  */
 
 int main(void)
