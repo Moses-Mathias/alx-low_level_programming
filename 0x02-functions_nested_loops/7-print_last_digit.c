@@ -1,20 +1,9 @@
 #include "main.h"
-
 /**
- * main - function that prints the last digit of a number.
- *
- * Return: Always 0.
+ * print_last_digit - function that prints the last digit of a number.
+ * @n: The input number to check
+ * Return: int.
  */
-int main(void)
-{
-int r;
-print_last_digit(98);
-print_last_digit(0);
-r = print_last_digit(-1024);
-_putchar('0' + r);
-_putchar('\n');
-return (0);
-}
 int print_last_digit(int n)
 {
 int last_digit = (n % 10);
