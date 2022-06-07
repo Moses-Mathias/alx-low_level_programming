@@ -5,11 +5,7 @@
  * starting from 00:00 to 23:59.
  * Return: nothing.
  */
-int main(void)
-{
-    jack_bauer();
-    return (0);
-}
+
 void jack_bauer(void)
 {
 int hours = 0;
