@@ -2,19 +2,11 @@
 #include <stdio.h>
 
 /**
- * main - function that adds two integers
- * returns the result
- *
- * Return: Always 0.
+ * add - function that adds two integers and returns the result.
+ * @a: input integer 1
+ * @b: input integer 2
+ * Return: int.
  */
-int main(void)
-{
-    int n;
-
-    n = add(89, 9);
-    printf("%d\n", n);
-    return (0);
-}
 int add(int a, int b)
 {
 int addition;
