@@ -7,15 +7,17 @@
 
 int main(void)
 {
-	int a, b;
+	int multi = 0;
+	int res = 0;
 
-	for (a = 0; a < 1024; a++)
+	while (multi < 1024)
+	{
+		if (multi % 3 == 0 || multi % 5 == 0)
 		{
-		if ((a % 3) == 0 || (a % 5) == 0)
-		{
-		b += a;
+			res += multi;
 		}
-		}
-	printf("%d\n", b);
+		multi += 1;
+	}
+	printf("%d\n", res);
 	return (0);
 }
