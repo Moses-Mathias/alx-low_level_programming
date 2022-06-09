@@ -2,9 +2,7 @@
 /**
  * _isupper: function for printing uppercase
  * @c - variable for uppercase letters
- *
- * Return: 1 if uppercase
- * Return: 0 otherwise
+ * Return: 1 if uppercase and 0 otherwise
  */
 
 int _isupper(int c)
