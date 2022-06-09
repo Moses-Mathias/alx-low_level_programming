@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _isdigit: function that checks for a digit
+ * _isdigit - function that checks for a digit
  * @c: variable to use
  *
  * Return: 1 if it is a digit
@@ -14,5 +14,5 @@ if (c >= 0 && c <= 9)
 return (1);
 }
 else
-print (0);
+return (0);
 }
