@@ -1,30 +1,31 @@
 #include <stdio.h>
 /**
- * main - function for fizzbuzz
- * @void: no parameters
- * Return: 0
- */
-
+* main - entry block
+* @void: no argument
+* Return: 0 Success
+*/
 int main(void)
 {
-int n;
+	int i;
 
-for (n =1; n < 100; n++)
-	if (n % 3 == 0)
-	{
-	printf("Fizz ");
-	}
-	else if(n % 5 == 0)
-	{
-	printf("Buzz ");
-	}
-	else if(n % 3 == 0 && n % 5 ==0) 
-	{
-	printf("FizzBuzz ");
-	}
-	else
-	{
-	printf("%d ", n);
-	}
-printf("/n");	
+	for (i = 1; i < 100; i++)
+		if (i % 15 == 0)
+		{
+			printf("FizzBuzz ");
+		}
+		else if (i % 5 == 0)
+		{
+			printf("Buzz ");
+		}
+		else if (i % 3 == 0)
+		{
+			printf("Fizz ");
+		}
+		else
+		{
+			printf("%d ", i);
+		}
+	printf("Buzz");
+	printf("\n");
+	return (0);
 }
