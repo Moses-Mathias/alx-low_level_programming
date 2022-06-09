@@ -2,17 +2,17 @@
 /**
  * _isdigit - function that checks for a digit
  * @c: variable to use
- *
- * Return: 1 if it is a digit
- * Return: 0 if otherwise
+ * Return: int
  */
 
 int _isdigit(int c)
 {
-if (c >= 0 && c <= 9)
+if (c >= 48 && c <= 57)
 {
 return (1);
 }
 else
+{
 return (0);
+}
 }
