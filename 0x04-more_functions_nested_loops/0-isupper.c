@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * _isupper: printing uppercase
- * @c - variable for uppercase letters
+ * _isupper - printing uppercase
+ * @c: variable for uppercase letters
  * Return: int
  */
 
