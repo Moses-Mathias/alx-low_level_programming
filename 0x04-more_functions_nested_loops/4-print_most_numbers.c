@@ -9,7 +9,7 @@
 
 void print_most_numbers(void)
 {
-char n = 48;
+int n = 48;
 while (n <= 57)
 {
 if (n != 50 && n != 52)
