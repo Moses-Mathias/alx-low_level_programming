@@ -1,10 +1,9 @@
 #include "main.h"
 
 /**
- * print_line: draws a straight line in the terminal
+ * print_line - draws a straight line in the terminal
  * @n: variable
- *
- * Return: print_line
+ * Return: int
  */
 void print_line(int n)
 {
