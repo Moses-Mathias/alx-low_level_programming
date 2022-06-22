@@ -7,9 +7,9 @@
  **/
 int _strlen_recursion(char *s)
 {
-    if (*s == '\0')
-        return (0);
-    return (_strlen_recursion(s + 1) + 1);
+if (*s == '\0')
+	return (0);
+return (_strlen_recursion(s + 1) + 1);
 }
 /**
  * is_palind_recursive - checks if two chars of a string are equal
@@ -20,13 +20,13 @@ int _strlen_recursion(char *s)
  **/
 int is_palind_recursive(char *s, int i, int j)
 {
-    if (i == j)
-        return (1);
-    if (i == j - 1)
-        return (s[i] == s[j]);
-    if (s[i] != s[j])
-        return (0);
-    return (is_palind_recursive(s, i + 1, j - 1));
+if (i == j)
+	return (1);
+if (i == j - 1)
+	return (s[i] == s[j]);
+if (s[i] != s[j])
+	return (0);
+return (is_palind_recursive(s, i + 1, j - 1));
 }
 /**
  * is_palindrome - checks if a string is a palindrome
@@ -35,10 +35,9 @@ int is_palind_recursive(char *s, int i, int j)
  **/
 int is_palindrome(char *s)
 {
-    int len;
-
-    len = _strlen_recursion(s);
-    if (len == 0 || *s != s[len - 1])
-        return (0);
-    return (is_palind_recursive(s, 0, len - 1));
+int len;
+len = _strlen_recursion(s);
+if (len == 0 || *s != s[len - 1])
+	return (0);
+return (is_palind_recursive(s, 0, len - 1));
 }
