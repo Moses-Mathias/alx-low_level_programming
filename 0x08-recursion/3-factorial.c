@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * _factorial - function for factorial
+ * factorial - function for factorial
  * @n: pointer to an integer
  * Return: int
  */
