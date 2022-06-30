@@ -7,12 +7,13 @@
  * Return: pointer to allocated memory or exit with 98
  */
 
-void *malloc_checked(unisgned int b)
+void *malloc_checked(unsigned int b)
 {
-void *ptr;
+	void *al;
 
-ptr = malloc(b);
-if (ptr == NULL)
-	exit(98);
-return (ptr);
+	al = malloc(b);
+	if (al == NULL)
+		exit(98);
+	else
+		return (al);
 }
