@@ -1,3 +1,21 @@
+Skip to content
+Musinde
+/
+alx-low_level_programming
+Public
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+More
+alx-low_level_programming/0x0C-more_malloc_free/101-mul.c
+@Musinde
+Musinde Trial 3
+ History
+ 1 contributor
+126 lines (115 sloc)  2.29 KB
 #include "main.h"
 #include <stdlib.h>
 #include <stdio.h>
